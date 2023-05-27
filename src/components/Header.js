@@ -79,9 +79,11 @@ function Header() {
               Fourth Link
             </a>
           </nav>
+        
           <button onClick={handleSignOut} class="flex mr-48 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
                 Sign Out
               </button>
+
           <form>
             <div class="flex">
               <div class="relative w-full">
@@ -136,7 +138,7 @@ function Header() {
                     alt={item.brand}
                   />
                 </a>
-              </Link>
+             
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
                   {item.category}
@@ -153,6 +155,7 @@ function Header() {
               <button class="flex mr-auto mt-2 text-white bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-600 rounded">
                 Add To Cart
               </button>
+              </Link>
             </div>
           ) : (
             <></>

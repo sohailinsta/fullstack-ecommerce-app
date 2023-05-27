@@ -38,7 +38,7 @@ function ProductList() {
                     alt={item.brand}
                   />
                 </a>
-                </Link>
+               
                 <div class="mt-4">
                   <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
                     {item.category}
@@ -52,7 +52,7 @@ function ProductList() {
                     <p class="mt-1 font-bold">${item.discountPercentage} OFF</p>
                   </div>
                 </div>
-                <Link to={`/ProductDetail/${item.id}`}>
+                
                 <button class="flex mr-auto mt-2 text-white bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-600 rounded">
                 Add To Cart
               </button>
